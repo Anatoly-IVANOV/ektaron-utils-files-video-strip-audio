@@ -1,6 +1,6 @@
 # Ektaron’s Utils – Video File Audio Stripper
 
-A straightforward Bash script to strip all audio and metadata from any video file without transcoding, preserving the original video quality and codec. This utility is particularly useful for film/video professionals and enthusiasts who need to create video-only versions of their files quickly and reliably.
+A straightforward Bash script to strip all audio and metadata from any video file without transcoding, preserving the original video quality and codec. Developed at [Ektaron](https://ektaron.com), this utility is particularly useful for film/video professionals and enthusiasts who need to create video-only versions of their files quickly and reliably.
 
 ## Features
 
@@ -20,18 +20,18 @@ To use the script:
 2. Download the `ektaron_utils_file_video_strip_audio.sh` script.
 3. Make the script executable:
    ```bash
-   chmod +x strip_audio.sh
+   chmod +x ektaron_utils_file_video_strip_audio.sh
    ```
 4. Run the script with the path to the video file as an argument. For example:
    ```bash
-   ./strip_audio.sh /path/to/your/file.mp4
+   ./ektaron_utils_file_video_strip_audio.sh /path/to/your/file.mp4
    ```
 
 The script will create a new file in the same location as the input file, appending `- no audio` to the filename, while preserving the original file extension.
 
 5. Additionally, you may want to add an alias to your `.bash_profile` for ease of invocation:
    ```bash
-   alias ektaronUtilsFilesVideoStripAudio="./strip_audio.sh"
+   alias ektaronUtilsFilesVideoStripAudio="./ektaron_utils_file_video_strip_audio.sh"
    ```
 
 ## License and Contributing
